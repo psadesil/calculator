@@ -1,0 +1,165 @@
+/* styles.css */
+
+/* Overall layout */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#mainBorder {
+    border: 2px solid #27a0d7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+}
+
+/* Display screen */
+#displayScreen {
+    border: 1px solid #ea8410;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 480px;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* Number buttons */
+#numberButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+#numberButtons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Operator buttons */
+#operatorButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+#operatorButtons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Button colors */
+#0 {
+    background-color: #f9f9f9;
+}
+
+#1 {
+    background-color: #f2f2f2;
+}
+
+#2 {
+    background-color: #e5e5e5;
+}
+
+#3 {
+    background-color: #d9d9d9;
+}
+
+#4 {
+    background-color: #cccccc;
+}
+
+#5 {
+    background-color: #bfbfbf;
+}
+
+#6 {
+    background-color: #b3b3b3;
+}
+
+#7 {
+    background-color: #a6a6a6;
+}
+
+#8 {
+    background-color: #999999;
+}
+
+#9 {
+    background-color: #8c8c8c;
+}
+
+#ac {
+    background-color: #ff3333;
+    color: #fff;
+}
+
+#operatorButtons div {
+    background-color: #ffcc00;
+}
+
+/* Button hover effects */
+#numberButtons div:hover,
+#operatorButtons div:hover {
+    background-color: #f7f7f7;
+}
+
+#ac:hover {
+    background-color: #e60000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#mainBorder{
+    position: relative;
+    background-color: rgb(231, 210, 210);
+    top: 30px;
+    border: 2px solid #3ea7ab;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#displayScreen{
+    border: 2px solid rgb(235, 136, 15);
+    margin-top: 20px;
+    width: 450px;
+    height: 70px;
+}*/
